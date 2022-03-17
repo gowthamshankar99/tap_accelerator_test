@@ -1,0 +1,26 @@
+accelerator:
+  displayName: one-magnify-java-database
+  description: "One Magnify Java App With Database Connectivity"
+  iconUrl: https://pbs.twimg.com/profile_images/1003591114497122305/nO2LflDs_400x400.jpg
+  tags: []
+  options:
+  - name: optionName
+    label: Name
+    display: true
+    defaultValue: ""
+
+  - name: databaseConnection
+    display: true
+    dataType: boolean
+    defaultValue: true
+
+  - name: Database Connection String
+    label: 'depends on toggle'
+    description: Add the Database Connection here
+    dependsOn:
+      name: databaseConnection
+    defaultValue: text value
+
+engine:
+  include:
+  - '**'
