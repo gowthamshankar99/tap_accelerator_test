@@ -5,22 +5,9 @@ accelerator:
   tags: []
   options:
   - name: optionName
-    label: Name
+    label: Nice Label
     display: true
     defaultValue: ""
-
-  - name: databaseConnection
-    display: true
-    dataType: boolean
-    defaultValue: true
-
-  - name: Database Connection String
-    label: 'Database Connection String'
-    description: Add the Database Connection here
-    dependsOn:
-      name: databaseConnection
-    defaultValue: text value
-
 engine:
   include:
   - '**'
