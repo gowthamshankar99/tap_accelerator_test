@@ -1,7 +1,7 @@
 accelerator:
-  displayName: one-magnify-java-database
-  description: "One Magnify Java App With Database Connectivity"
-  iconUrl: https://pbs.twimg.com/profile_images/1003591114497122305/nO2LflDs_400x400.jpg
+  displayName: reynolds-reynolds-java-starter-project
+  description: R&R Web Java starter Project
+  iconUrl: https://www.reyrey.com/sites/default/media/2019-12/Social_Logo1.jpg
   tags: []
   options:
   - name: optionName
@@ -15,7 +15,7 @@ accelerator:
     defaultValue: true
 
   - name: Database Connection String
-    label: 'depends on toggle'
+    label: 'Database Connection String'
     description: Add the Database Connection here
     dependsOn:
       name: databaseConnection
